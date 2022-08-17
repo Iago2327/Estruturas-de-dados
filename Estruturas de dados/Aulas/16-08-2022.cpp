@@ -20,15 +20,13 @@ int main()
         cin>>estoque[i].nome;
         cout<<"Valor: ";
         cin>>estoque[i].valor;
-    }   
-    //Como imprimir somente os produtos que tem valor superior a 2000
-
-    //Dar um desconto de 10% aos produtos que tem valor abaixo de 1000
-
+    }
     //Impressão de todos os produtos
     for(int i=0;i<5;i++){
+        //Como imprimir somente os produtos que tem valor superior a 2000
         if(estoque[i].valor > 2000){
         cout<<endl<<"Codigo: "<<estoque[i].codigo;
+        //Dar um desconto de 10% aos produtos que tem valor abaixo de 1000
         }else if(estoque[i].valor < 1000){
             cout<<endl<<"Codigo: "<<estoque[i].codigo<<endl;
             cout<<"Nome: "<<estoque[i].nome<<endl;
