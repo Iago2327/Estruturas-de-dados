@@ -1,0 +1,13 @@
+Fila estrutura de dados Linear
+
+inserção: insere no maior índice(final da fila) 
+
+acesso: sempre o elemento de menor índice(frente da fila)
+
+remoção: remove o elemento de menor índice(frente da fila)
+
+enqueu(fila f, elemento)
+
+first(fila f)
+
+dequeu(fila f)

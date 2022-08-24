@@ -66,3 +66,49 @@ int main()
 
     return 0;
 }
+
+/*#include <iostream>
+
+using namespace std;
+
+struct pilha{
+    int v[15];
+    int topo;
+};
+
+void push(pilha & p, int ne){
+    p.topo++;
+    p.v[p.topo]=ne;
+}
+
+int top(pilha p){
+    return p.v[p.topo];
+}
+void pop(pilha & p){
+    p.topo--;
+}
+int main()
+{
+    int x;
+    pilha p1, p2;
+    p1.topo=-1;
+    p2.topo=-1;
+    
+    push(p1, 3);
+    push(p1, 2);
+    push(p1, 4);
+    push(p2, 2);
+    push(p2, 1);
+    cout<<top(p1)<<endl;
+    cout<<top(p2)<<endl;
+    x=top(p2);
+    
+    push(p1, x);
+    pop(p2);
+    push(p1, x);
+    pop(p2);
+    cout<<top(p1)<<endl;
+    cout<<top(p2);
+
+    return 0;
+}*/
