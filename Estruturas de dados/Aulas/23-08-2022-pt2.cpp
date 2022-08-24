@@ -18,7 +18,7 @@ void dequeu(fila & f){
     f.inicio++;
 }
 int first(fila f){
-    return f.v[f.inicio];
+    return f.v[f.inicio]; 
 }
 int main()
 {
