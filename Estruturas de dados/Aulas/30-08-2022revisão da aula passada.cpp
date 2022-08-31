@@ -22,14 +22,15 @@ struct fila
     int inicio;
     int fim;
 };
-void enquewe(fila &f, int novoElemento){
+void enqueue(fila &f, int novoElemento){
+
     f.v[f.fim]= novoElemento;
     f.fim++;
 };
 int first(fila f){
     return f.v[f.inicio];
 }
-void dequewe(fila &f){
+void dequeue(fila &f){
     f.inicio++;
 };
 
