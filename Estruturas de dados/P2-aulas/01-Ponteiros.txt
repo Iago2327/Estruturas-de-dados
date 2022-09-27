@@ -1,0 +1,35 @@
+Ponteiros
+-É uma variável que guarda endereço de memória!
+
+Entenda...
+
+O computador tem 2 hardware importante.
+A ram e a CPU ou PROCESSADOR.
+    A CPU é o dispositivo que processa as coisas, tudo o que queremos q o computador faça é c a CPU
+    A ram, é o dispositivo q armazena informações/dados, e  cada um delas é inumerado de 0 a x que se torna os  indereço das informações/dados.
+Essas informações são as variaveis, int, char, float, um vetor etc.
+    O int ocupa 4 posiçoes de memoria.
+    O char apenas uma gaveta.
+    O float geralmente é 4, mas pode chegar até 6.
+    E o vetor varia do tamanho definido pelo programa ou usuario.
+    Isso tudo é chamado de Niveis de memoria.
+Cada variavel do programa associa-se à 1 ou mais ENDEREÇOS de memóriaem c/c++, podemos acessar o endereço de uma variável cin o operador &.
+    Se eu usuar:
+        cout<< &nomedavariavel <<endl;
+        Ele vai me dar o ENDEREÇO de memória dessa variável! e todo numero q começa 0x... ele é HEXADECIMAL!
+Ponteiro: Variável especial QUE guarda endereços de memória!
+
+Ponteiro: Não guarda conteúdo de variáveis, mas sim seus endereços"
+
+    tipo * nomedoPonteiro;
+
+Quando " int * o = &x;
+    Dizemos que "p" APONTA "x".
+
+Quando desejar alterar um conteúdo apontando por um ponteiro, utiliza-se o operador *.
+
+    int x;
+    int * p; //criando o ponteiro
+    p = &x;
+
+    *p = 10; //usando o ponteiro. O conteúdo da variavel p é = a 10, x passa a ter o valor 10, mas n perde o seu endereço de memória.
