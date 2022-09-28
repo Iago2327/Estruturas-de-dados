@@ -24,8 +24,4 @@ int main()
     return 0;
 }**/
 
-struct fila{
-    int v[10];
-    int inicio;
-    
-}
+
