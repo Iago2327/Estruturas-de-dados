@@ -1,0 +1,33 @@
+estruturas linear
+
+    -> Pilha
+    ->Fila      Operações Fundamentais (acesso, inserção e remoção)
+    ->Lista
+
+    Pilha => LIFO(last-in-firstOut)
+
+    Fila => (first-in-firstOut)
+
+    Pilha{
+        push(p, x) inserção
+        pop(p) remoção/deleção
+        top(p) acesso
+    }
+
+    fila{
+        enqueue(f, x) inserção
+        dequeue(f) 
+        front(f)
+    }
+
+    Lista{
+        insert(l,p,x)
+        remove(l,p)
+        element(l,p)
+        pos(l,x)
+    }
+
+A partir da LISTA, TODAS as estruturas LINEARES podem ser derivadas!
+
+    Lista vira Pilha se INSERÇÃO, ACESSO e REMOÇÃO for somente  em uma das estremidades.
+    LISTA vira FILA se INSERÇÃO dor feita no FINAL e ACESSO e REMOÇÃO feitas no início.
