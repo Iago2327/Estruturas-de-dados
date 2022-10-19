@@ -7,9 +7,9 @@ using namespace std;
 struct No{
     int valor;
     No * anterior;
-}
+};
 //Referência global(pilha vazia)
-No * topo = NULL;
+No*topo = NULL;
 
 
 void push(int valor){
@@ -27,11 +27,11 @@ void push(int valor){
     }
     //Atualizar o topo
     topo = novoNo;
-}
+};
 
 int top(){
     return topo->valor;
-}
+};
 
 void pop(){
     // Primeiro "marcar" o elemento que será removido...
@@ -40,11 +40,9 @@ void pop(){
     topo = topo -> anterior;
     // Apagar da memória o elemento removido!
     free(aux);
-}
+};
 
-void imprimePilha(){
-    for( no*__equal_aux)
-}
+
 int main()
 {
     push(10);
