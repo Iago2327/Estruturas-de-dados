@@ -1,0 +1,19 @@
+Implementada por ponteiros no more overflow
+
+Estrutura encadeada: cada elemento se liga á outro elemento
+
+Se ocorrer algum problema ao referenciar um elemento, um ou mais elementos da estruturas podem se perder
+
+O início da estrutura encadeada é localizada por uma referência fixa. 
+
+para construir um estrutura encadeada utiliza-se um tipo "No"
+
+struct No{
+    int valor;
+    No * anterir;
+};
+
+Pilha No * topo; //Referência globlal. quando a pilha está vazia. O ponteiro topo APONTA NULL. NULL significa que topo não aponta nada
+
+Criar uma estrutura de dados do pilha de ponteiros, no qual a mesma assuma o push somente, se o elemento atual é o MENOR que o topo.
+

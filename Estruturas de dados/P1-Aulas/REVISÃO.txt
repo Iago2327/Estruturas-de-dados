@@ -31,3 +31,4 @@ A partir da LISTA, TODAS as estruturas LINEARES podem ser derivadas!
 
     Lista vira Pilha se INSERÇÃO, ACESSO e REMOÇÃO for somente  em uma das estremidades.
     LISTA vira FILA se INSERÇÃO dor feita no FINAL e ACESSO e REMOÇÃO feitas no início.
+
