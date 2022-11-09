@@ -1,0 +1,24 @@
+Árvore: estruturas NÃO LINEARES
+
+--> Estruturas Hierárquica?
+    Oganização por Niíveis!
+
+--> Cada elemento da árvore é um nó
+
+PAI---->NÓ--->FILHO DO NÓ
+        |
+        |
+        v
+    FILHO DO 
+        NÓ
+
+O NÓ que da origem a árvore normalmente são os cossiderados raizeses e eles não tem pai.
+Os NÓ folhas: não tem filhos.
+Os NÓS INTERNOS são elementos quem tem um pai e um ou mais filhos.
+
+Ordem da árvore: numero máximo de filhos que o nó de uma árvore pode apresentar.
+Árvore BINÁRIA: árvore de ordem 2.
+
+Árvore BINÁRIA completa: só não tem 2 filhos as folhas(nivel 3).
+
+Árvore BINÁRIA de BUSCA: todo filho à esquerda é menor que o valor do pai, e todo o filho à direita é maior que o valor do pai.
